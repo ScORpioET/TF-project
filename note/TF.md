@@ -16,4 +16,14 @@
 
 - 強化式(Reinforcement Learning)<br/>
     會有代理人(Agent)、環境(Environment)、獎懲(Positive/nagative reward)，代理人會在未知的環境探索並在根據我們規定好獎懲機制，並做出更有效率的行動(Action)
-    
+
+## Instruction
+
+### tf.ones()
+
+- tf.ones([1,2,3])：建立都為1*2*3張量，其純量都為1
+
+### tf.reshape()
+tensor = tf.ones([1,2,3])
+- tf.reshape(tensor ,[2,3,1])：將張量轉型成2*3*1(Tensor.shape必須乘積必須相同)
+- tf.reshape(tenosr ,[3, -1])：將張量轉型成3*(2*1)(把剩下的乘進來)
