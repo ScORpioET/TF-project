@@ -19,7 +19,7 @@
 
 ## batch、iteration、epoch
 假設有1000個DataSet而我們分200份來進行分批訓練，<font color=#EB3F5C>batch(批次)</font>就是200。而我們送完1000個DataSet需要5次，所以<font color=#EB3F5C>iteration(迭代)</font>就是5。當全部都丟進去然後運算完成以後，就是1個<font color=#EB3F5C>epoch(期)</font>
-    
+
     Data set size = Iteration * Batch size （1 Epoch）
 ## Instruction
 
@@ -29,7 +29,7 @@
 
     tf.ones([1,2,3])：建立都為1*2*3張量，其純量都為1
 
-### tf.reshape()
+### tf.reshape()  
     tensor = tf.ones([1,2,3])
     tf.reshape(tensor ,[2,3,1])：將張量轉型成2*3*1(Tensor.shape必須乘積必須相同)
     tf.reshape(tenosr ,[3, -1])：將張量轉型成3*(2*1)(把剩下的乘進來)
