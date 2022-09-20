@@ -1,8 +1,16 @@
 # 卷積神經網路(Convolutional neural network, CNN) 
 
+卷積神經網路實線的重點之一就是權重共享(Shared Weight)這件事情，下左圖，透過卷積運算的方法達到Local connected neural nets。
+
 ![alt text](./img/CNN.png)
 
 ## Convolution(卷積)
+
+利用 filter 在輸入圖片上滑動並且持續進行矩陣內積，卷積後得到的圖片我們稱之為 feature map。
+
+![alt text](https://i.imgur.com/JTqr2Yw.png)
+
+![alt text](https://i.imgur.com/v4VM3qu.gif)
 
 ![alt text](./img/Convolution.png)
 
