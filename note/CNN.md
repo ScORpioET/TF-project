@@ -10,7 +10,7 @@
     透過卷積核(Kernels)滑動對圖像做訊息提取，並藉由步長(Strides)與填充 (Padding)控制圖像的長寬
 
 ### Filter(卷積核)
-橘色的矩陣代表"卷積核(Kernel or Filter)"，利用 Filter 在輸入圖片上滑動並且持續進行矩陣內積，卷積後得到的圖片我們稱之為 Feature map。Filter有多少個Feature map就有多少個，常見的有16、32、64。
+橘色的矩陣代表"卷積核(Kernel or Filter)"，利用 Filter 在輸入圖片上滑動並且持續進行矩陣內積，卷積後得到的圖片我們稱之為 Feature map。Filter有多少個Feature map就有多少個，常見的有16、32、64。<font color=#EB3F5C>Filter是被Train出來的。</font>
 
 ### Receptive field(感知區塊)
 Filter的尺度
