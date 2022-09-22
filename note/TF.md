@@ -24,6 +24,19 @@
 
 <font color=#EB3F5C>Step</font>就是會一直跑DataSet直到跑到<font color=#EB3F5C>Step所設定的數字</font>，<font color=#EB3F5C>資料跑完就重頭繼續跑</font>
 
+## Parameter(參數) & Hyperparameter(超參數)
+
+- Parameter：即為模型根據訓練資料自動學習出來的變量，Weight和Bias就屬於Parameter。
+- Hyperparameter：即是在模型訓練之前，事先根據經驗給定的參數，Epochs和Layer數就屬於Hyperparameter。
+
+## Validation Set(驗證集)
+
+    用於評估模型的初步能力與超參數調整的依據，是非必要的。
+
+## Learning Rate(學習率)
+
+    決定Weight更新的速度
+
 ## K-means運作概念
 
 假設為手寫範例，手寫會有0~9的數字
